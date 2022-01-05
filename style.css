@@ -1,0 +1,77 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.flex-container{
+    display: flex;
+    margin-bottom: 100px;
+
+}
+.hlaf-width{
+    width: 50%;
+    padding-left: 40px;
+}
+.hlaf-width img{
+    width: 80%; 
+    
+}
+h1{
+   font-size: 40px;
+}
+#m-2022{
+    color: rgb(119, 172, 167);
+    
+    font-size: 60px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(95, 55, 48),tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+.border{
+    margin-left: 40px;
+    border-left:7px solid;
+    border-image: linear-gradient(#7a8b47, #5c6074) 30;
+    border-image-slice: 1;  
+}
+#m-mission{
+    text-align: center;
+    
+}
+#m-mission span{
+    color: orange;
+}
+.card-flex-container{
+    display: flex;
+   
+}
+.mission-item img{
+    width: 60%;
+    
+}
+.mission-item{
+    width: 50%;
+    margin-left:3%;
+    margin-right: 3%;
+    padding: 30px;
+    border-radius:10px;
+    box-shadow: 10px 10px 40px gray
+
+}
+
+#mi{
+    background-color: rgb(203, 218, 216);
+
+}
+#vi{
+    background-color: rgb(192, 179, 192);
+
+}
+#goal{
+    background-color: rgb(158, 190, 178);
+
+}
+
