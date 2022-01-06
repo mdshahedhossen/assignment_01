@@ -16,12 +16,25 @@ body{
     
 }
 h1{
-   font-size: 40px;
+   font-size: 45px;
 }
 #m-2022{
     color: rgb(119, 172, 167);
     
     font-size: 60px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+
+#s-focused{
+    font-size: 50px;
+    color: rgb(180, 133, 202);
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', cursive;
+    
+    
 }
 .link-button{
     text-decoration: none;
@@ -37,11 +50,20 @@ h1{
     border-image: linear-gradient(#7a8b47, #5c6074) 30;
     border-image-slice: 1;  
 }
+
+
+.my-mission{
+    margin-bottom: 100px;
+
+}
 #m-mission{
     text-align: center;
     
 }
 #m-mission span{
+    color: orange;
+}
+span{
     color: orange;
 }
 .card-flex-container{
@@ -74,4 +96,58 @@ h1{
     background-color: rgb(158, 190, 178);
 
 }
+.bootom-flex-container{
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.bootom-flex-container img{
+    width: 60%;
+    
+} 
+.dev-section{
+    background-image:url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left;
+}
+.global-section{
+    background-image:url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size:350px;
+    background-position: right;
+
+}
+#surokkha{
+    width:40%;
+    margin-left: 100px;
+    
+}
+#build-app{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+.f-section{
+    padding: 30px;
+    background-color: rgb(48, 45, 45)
+    
+}
+.footer h2{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+
+.footer p{
+    
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
 
